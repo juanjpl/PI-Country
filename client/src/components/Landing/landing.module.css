@@ -1,0 +1,391 @@
+.contenedorGeneral{
+    display:flex;
+    flex-direction: column;
+}
+.contenedor{
+
+    
+
+ 
+   
+    
+background-image: url("../../assets/grecia.jpg") ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+    
+    
+}
+
+.carrousel{
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    justify-content: center;
+    height:90vh;
+    width: 50vw;;
+    
+ 
+}
+
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:white;
+    font-size: 4.5rem;
+       
+}
+
+.span{
+    font-family: 'Great Vibes', cursive;
+    color:white;
+    font-size: 4.5rem;
+   
+
+}
+
+.parrafo{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin: 0.5rem 0rem;
+    
+
+}
+
+.contenedorBotonera{
+    min-width: 100% ;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    margin:0rem;
+}
+
+.button{
+    
+    background-color:transparent;
+    border:3px solid crimson;
+    text-decoration: none;
+    margin: 1.5rem auto;
+    padding:0.5rem;
+    font-size: 0.8rem;
+    color:white;
+    text-transform: capitalize;
+    
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+    background-color:crimson;
+}
+
+.buttonOut{
+   
+    background-color:transparent;
+    text-decoration: none;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color:white;
+    text-transform: capitalize;
+    border:1px solid rgb(71, 170, 96);
+    color:rgb(71, 170, 96);
+    border-radius: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.buttonOut:hover{
+    background-color:rgba(255, 255, 255, 0.384);
+    
+}
+
+
+
+/*================== contenedor de 3 paises=================== */
+
+.contenedorCountries{
+    display:flex;
+    flex-direction: row;
+    height: 50vh;
+    background-color: white;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenedorPais1{
+    width:22%;
+    height: 70%;
+    background-image: url("../../assets/polinesia.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2rem ;
+    margin:0rem 1.5rem;
+
+    position:relative;
+   top:-80px;
+
+   -webkit-box-shadow: 15px 25px 18px -4px rgba(0,0,0,0.35);
+-moz-box-shadow: 15px 25px 18px -4px rgba(0,0,0,0.35);
+box-shadow: 15px 25px 18px -4px rgba(0,0,0,0.35);
+ 
+}
+
+.descriptionCountry{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 0.5rem 0rem;
+    
+}
+
+.titleCountry{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:white;
+    font-size: 2.5rem;
+}
+.buttonRedFull{
+    color:white;
+    background-color: crimson;
+    margin-top: 1rem;
+    padding:0.3rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+
+    font-size: 0.8rem;
+    
+
+}
+
+.buttonRedFull:hover{
+   
+    background-color: rgb(192, 21, 55);
+  
+
+}
+
+
+/*================== contenedor de iconos actividades =================== */
+
+.contenedorDescription{
+    display:flex;
+    flex-direction: column;
+    padding: 1rem 0rem;
+
+}
+
+.contenedorCardDescription{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 50%;
+    padding: 2rem 0rem;
+}
+
+.contenedorCardDescription h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.contenedorCardDescription span{
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
+
+.contenedorCardDescription p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 2.5rem 0rem;
+    color:grey;
+}
+
+.contenedorCardActivities{
+    display: flex;
+    flex-direction: row;
+    width:75%;
+    margin:auto;
+ 
+}
+
+.CardActivities{
+    padding:0rem 1rem;
+}
+
+.contenedorCardActivities h1{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size:1.3rem;
+    margin-top: 1rem;
+}
+
+.contenedorCardActivities p{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    color:grey;
+    font-weight: lighter;
+    margin: 1.5rem 0rem;
+}
+
+
+/*================== contenedor de barra actividades semanales  =================== */
+
+
+.contenedorWeekActivity{
+    display:flex;
+    flex-direction: column;
+    height: 70vh;
+    background-image: url("../../assets/perito-moreno.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:1rem;
+}
+
+.WeekActivity{
+   margin: auto 0;
+   padding: 0rem 2rem;
+   text-align: left;
+   width:40vw;
+}
+
+
+/*================== contenedor de barra actividades =================== */
+
+.contenedor3Activities{
+    display:flex;
+    flex-direction: column;
+    height: 40vh;
+   
+}
+
+.contenedoractivities3{
+    display:flex;
+    flex-direction: row;
+    width: 75vw;
+    margin:0 auto;
+    position:relative;
+    top:-100px;
+    -webkit-box-shadow: 15px 25px 18px -4px rgba(0,0,0,0.35);
+    -moz-box-shadow: 15px 25px 18px -4px rgba(0,0,0,0.35);
+    box-shadow: 15px 25px 18px -4px rgba(0,0,0,0.35);
+
+}
+
+
+.contenedorActivity1{
+    background-color: grey;
+    text-align: left;
+    padding: 2.5rem 3rem;
+}
+
+.contenedorActivity1 h1{
+    font-size: 1.5rem;
+    margin:1rem 0rem;
+
+}
+
+.contenedorActivity1 p{
+   
+    margin:1rem 0rem;
+
+}
+
+
+/*================== contenedor de barra actividades =================== */
+
+.contenedorPerfiles{
+    display:flex;
+    flex-direction: row;
+}
+
+.contenedorPerfilesAjustado{
+    display: flex;
+    flex-direction: row;
+    width:80vw;
+
+    margin: 0 auto;
+}
+
+.CardPerfiles{
+    display:flex;
+    flex-direction: row;
+
+    text-align: left;
+    padding: 2rem 2rem;
+}
+
+.CardImages{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 2rem;
+}
+
+.CardImages img{
+    padding:0rem 0.5rem;
+}
+
+.TitleImages{
+    font-size: 1rem;
+    margin-top:1rem;
+}
+
+.TitleImages span{
+    font-size: 0.9rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    margin-left: 1.5rem;
+}
+
+
+/*================== contenedor de barra actividades =================== */
+
+.contenedorFormulario{
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("../../assets/fotoform.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 80vh;
+    margin-top: 3rem;
+
+  
+}
+
+.CardFormulario{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.Form{
+    display: flex;
+    flex-direction: column;
+}

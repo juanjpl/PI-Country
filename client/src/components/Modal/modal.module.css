@@ -1,0 +1,85 @@
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.144);
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.modals{
+display: flex;
+flex-direction: row;
+width: 60%;
+height: 50%;
+
+}
+
+.modalImage{
+    width: 50%;
+    height: 100%;
+    background-image: url("../../assets/botes.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.modal{
+    width: 50%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+.titulo{
+   
+    font-family: 'Great Vibes', cursive;
+    font-weight: 600;
+    color:black;
+    font-size: 3rem;
+    margin-top:2.5rem;
+       
+}
+
+
+
+.parrafo{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:black;
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-align: center;
+    
+
+}
+
+.button{
+    
+    background-color:crimson;
+    border:transparent;
+    text-decoration: none;
+    margin: 1.5rem auto;
+    padding:0.5rem 1rem;
+    font-size: 1.2rem;
+    color:white;
+    text-transform: capitalize;
+    border-radius: 0.8rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+    background-color:crimson;
+}

@@ -1,0 +1,47 @@
+
+
+.background{
+    background-color:#ffffff5d ;
+    position: fixed;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   z-index: 1000;
+   
+}
+
+.linkNavbar{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    margin:auto 1.2rem;
+    text-decoration: none;
+    font-weight: 800;
+    color:black;
+}
+
+.linkNavbar :hover{
+    background-color:crimson;
+    color:white;
+}
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    padding:0rem 0rem 0rem 1.5rem;
+    text-decoration: none;
+    color:crimson;
+}
+
+.botonera{
+   
+    margin:auto;
+}
+
+.login{
+    margin: auto 0;
+    padding-right: 1rem;
+   
+}

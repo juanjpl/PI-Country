@@ -1,0 +1,107 @@
+
+
+.contenedorCard{
+    display: flex;
+    flex-direction: row;
+    border-radius: 2rem;
+    width:90%;
+    height: 75%;
+    padding: 1rem ;
+    margin:0rem 1rem;
+    flex-wrap: wrap;
+    
+
+}
+.contenedor30{
+    width:30%;
+    
+
+}
+
+.contenedor70{
+    width:65%;
+    margin:auto;
+   
+}
+
+.contenedor70 p{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.imagen{
+    display: flex;
+    width:150px;
+    height: 100px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.texto{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color:black;
+
+
+}
+
+.contenedorMitad h1 span{
+    color:white;
+}
+
+.nombre{
+    
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    align-items: center;
+    text-decoration: none;
+    color:red;
+    font-weight: bold;
+    margin:0.5rem
+ 
+}
+
+.nombre:hover{
+    color:yellow;
+}
+
+.dogApi{
+    justify-content: space-around;
+    display: flex;
+    font-size: 0.8rem;
+    align-items: center;
+    text-decoration: none;
+    background-color:rgba(52, 52, 211, 0.788);
+    color:white;
+    font-weight: bold;
+    padding:0.5rem 1rem;
+    border-radius: 9999px;
+}
+
+.dogDb{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    align-items: center;
+    text-decoration: none;
+    background-color:rgba(0, 128, 0, 0.726);
+    margin:0;
+    color:white;
+    font-weight: bold;
+    padding:0.5rem 1rem;
+    border-radius: 9999px;
+
+}
+
+.cartel{
+    display: flex;
+    justify-content: center;
+}

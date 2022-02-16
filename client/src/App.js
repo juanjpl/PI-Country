@@ -1,9 +1,15 @@
 import './App.css';
+import React  from  'react';
+import Landing from "./components/Landing/Landing"
+
 
 function App() {
+
+
+
   return (
     <div className="App">
-      <h1>Henry Countries</h1>
+     <Landing/>
     </div>
   );
 }

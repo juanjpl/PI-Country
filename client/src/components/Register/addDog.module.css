@@ -1,0 +1,144 @@
+
+.contenedorHenry{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    margin: auto;
+    background-image: url("../../assets/globos.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+}
+
+.contenedorDatos{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    justify-content: space-around;
+    margin: auto;
+    
+
+   
+}
+.contenedorinputs{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+.contenedoruser{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+.lists{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 255, 255, 0.274);
+    justify-content: space-around;
+    align-items: center;
+    width: 65vw;
+    height: 70vh;
+    border-radius: 1rem;
+    padding:1rem;
+
+}
+
+.contenedorTextoHenry{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 30px 30px 0px;
+    
+
+}
+
+.titulo{
+    color:rgb(4, 0, 255);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 2rem;
+
+}
+
+.labels{
+   
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+   margin-left: 25%;
+    
+
+}
+
+.input{
+
+    color:rgb(0, 0, 0);
+    font-size: 0.8rem;
+    line-height: 2;
+    width: 50%;
+ margin:0 auto;
+ 
+}
+
+.contenedoruser h1{
+    margin:1rem auto;
+}
+
+.contenedoruser h2{
+    margin:0 20%;
+}
+
+.contenedoruser img{
+    margin:1rem auto;
+}
+
+
+.contenedorFooter button{
+    background-color: rgb(247, 30, 74);
+    border:transparent;
+    padding:0.5rem 1rem;
+    border-radius:8px;
+    font-size: 1rem;
+    color:white;
+    font-weight: 600;
+}
+
+.contenedorFooter button:hover{
+    background-color: rgb(167, 23, 51);
+    transform: scale(1.2)
+    
+
+}
+
+.contenedoruser span{
+   
+    font-size: 1.2rem;
+    margin:0 2rem;
+    background-color: rgb(238, 154, 27);
+}

@@ -1,0 +1,43 @@
+
+
+.contenedorSearch{
+    position: fixed;
+    width:100vw;
+    height:8%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(108, 93, 248);
+    align-items: center;
+    margin-top:3.5rem;
+   
+
+}
+
+.contenedorOrder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:0rem 2rem;
+
+}
+
+.contenedorSearch form{
+    padding-right: 3rem;
+}
+
+.button{
+    background-color: crimson;
+    border-radius: 10px;
+    border:transparent;
+    padding:0.2rem 1rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: 800;
+}
+
+.input{
+    padding:0.4rem 1rem;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+}

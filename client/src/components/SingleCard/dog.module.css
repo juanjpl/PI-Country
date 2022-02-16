@@ -1,0 +1,89 @@
+
+
+.contenedorCard{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 255, 255, 0.616);
+    border-radius:1rem;
+    width:15%;
+    height: 35%;
+    padding: 1rem ;
+    margin:1rem 0.5rem;
+    flex-wrap: wrap;
+    
+
+}
+
+.imagen{
+    display: flex;
+    width:120px;
+    height: 80px;
+    align-items: center;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    transition: transform .2s;
+}
+
+.texto{
+    text-align: center;
+    font-size: 0.8rem;
+    color:rgb(0, 0, 0);
+
+}
+
+.nombre{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    color:crimson;
+    
+   
+ 
+}
+
+.nombre:hover{
+    color:yellow;
+}
+
+.dogApi{
+    justify-content: space-around;
+    display: flex;
+    font-size: 0.8rem;
+    align-items: center;
+    text-decoration: none;
+    background-color:rgba(52, 52, 211, 0.788);
+    color:white;
+    font-weight: bold;
+    padding:0.5rem 1rem;
+    border-radius: 9999px;
+}
+
+.dogDb{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    align-items: center;
+    text-decoration: none;
+    background-color:rgba(0, 128, 0, 0.726);
+    margin:0;
+    color:white;
+    font-weight: bold;
+    padding:0.5rem 1rem;
+    border-radius: 9999px;
+
+}
+
+.cartel{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.zoom:hover{
+    transform: scale(1.8)
+}

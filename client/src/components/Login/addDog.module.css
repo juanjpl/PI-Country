@@ -1,0 +1,112 @@
+
+.contenedorHenry{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+    margin: auto;     
+    background-image: url("../../assets/globos.jpg") ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+   
+}
+
+.contenedorDatos{
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+   
+}
+.contenedorinputs{
+    display: flex;
+    flex-direction: column;
+    margin:  auto;
+}
+
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 255, 255, 0.233);
+    margin:0 auto ;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 2rem;
+
+}
+
+
+
+
+.labels{
+   
+    color:rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    
+
+}
+
+.input{
+
+    color:rgb(0, 0, 0);
+    font-size: 0.8rem;
+    line-height: 2;
+    width: 100%;
+ 
+}
+
+.botonera{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+.botonera h4{
+    width: 80%;
+    margin:0 auto;
+    padding-bottom: 3rem;
+
+}
+
+.button{
+    background-color:crimson;
+    border:none;
+    padding:0.5rem 2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    color:white;
+    transition: all 0.3s ease-in-out;
+
+    
+}
+
+.button:hover{
+    background-color:rgb(194, 22, 56);
+
+}
+
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:white;
+    font-size: 3rem;
+    margin:0 auto ;
+       
+}
+
+.span{
+    font-family: 'Great Vibes', cursive;
+    color:white;
+    font-size: 2rem;
+   
+
+}
