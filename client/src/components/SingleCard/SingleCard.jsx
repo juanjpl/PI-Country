@@ -32,7 +32,7 @@ export default function SingleCard({...pj}){
 
   
         dispatch(saveFavorite(pais))
-        alert("Guardé en favoritos el personaje correctamente")
+        alert("Guardé en favoritos correctamente")
         navigate('/favorite')
 
     }
@@ -41,7 +41,7 @@ export default function SingleCard({...pj}){
         e.preventDefault()
 
         dispatch(borrarFavorito(pj.id))
-        alert("borré en favoritos el personaje correctamente")
+        alert("borré en favoritos correctamente")
     }
 
     //var indexOfStevie = favoritos?.map(f=> f.id).indexOf(pj.id)

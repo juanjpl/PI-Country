@@ -178,6 +178,15 @@ margin:1rem auto;
     font-weight: 600;
 }
 
+.contenedorFooter h4{
+    color:white;
+    background-color: rgb(255, 37, 37);
+    padding:0.5rem 2rem;
+    margin-top:2rem;
+
+}
+
+
 .contenedorFooter button:hover{
     background-color: rgb(167, 23, 51);
 

@@ -6,16 +6,19 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .favoritos{
+    
     display: flex;
     flex-direction: row;
     width: 80%;
     height:max-content;
     margin: auto;
     flex-wrap: wrap;
-    padding-top: 1rem;
 }
 
 

@@ -112,7 +112,7 @@ export default function Login(){
                     <div className={styles.botonera} >
                             {
                                 ( user.username ===""||user.password==="") ?
-                                <h4 className={styles.span} >Debe llenar todos los campos para poder enviar el formulario ! Gracias </h4>
+                                <h4 >Debe llenar todos los campos para poder enviar el formulario ! Gracias </h4>
                                 :
 
                                 <button className={styles.button} type="submit">Login</button>
