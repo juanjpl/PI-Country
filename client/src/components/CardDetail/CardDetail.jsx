@@ -9,14 +9,7 @@ export default function CardDetail({...country}){
         <div className={styles.contenedorCard}>
 
             <div className={styles.contenedorMitad}>
-            {
-                
-                (typeof(id) === "number")
-                ?
-                <h2 className={styles.dogApi} >API Character</h2>
-                :
-                <h2 className={styles.dogDb} >DB Character</h2>
-            }
+           
             
             <h1 className={styles.nombre} >{country.name} </h1>
             <img src={country.flag} alt={country.name} className={styles.imagen} />

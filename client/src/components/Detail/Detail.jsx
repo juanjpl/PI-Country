@@ -7,9 +7,10 @@ import { deleteCharacter } from '../../redux/actions/index';
 import CardDetail from '../CardDetail/CardDetail'
 import Label from "../Label/Label"
 import styles from './dogCard.module.css'
-import { saveFavorite } from "../../redux/actions";
+import { saveFavorite , borrarFavorito } from "../../redux/actions";
 
-
+import heartFull from "../../assets/Heart-icon.png"
+import heartFill from "../../assets/Gaming-Hearts-icon.png"
 
 
 export default function Detail(){
@@ -50,6 +51,13 @@ const favoritos = useSelector((state)=>state.favorites)
         //alert("Guardé en favoritos el personaje correctamente")
         navigate('/favorite')
 
+    }
+
+    const handleEliminateFavorite=(e)=>{
+        e.preventDefault()
+
+        dispatch(borrarFavorito(country.id))
+        alert("borré en favoritos correctamente")
     }
 
     function handleDelete(e){
@@ -172,35 +180,30 @@ const favoritos = useSelector((state)=>state.favorites)
                 country
                 ?
                 <div   className={styles.contenedorCard} >
+
+                        <div className={styles.contenerodBotonera} > 
+
+                                            
+                        {
+                            ((favoritos?.map(f=> f.id).indexOf(country.id)) === -1)
+                            ?
+                            
+                                <img src={heartFill}  className={styles.zoom} alt="favorite"  onClick={handleFavorite} />    
+                            
+                            :
+                            <img src={heartFull} alt="favorite"  onClick={handleEliminateFavorite}  />    
+                            
+
+                        }
+                        
+                        
+                        </div>
                    
                     <CardDetail {...country} />
 
                
 
-                    <div className={styles.contenerodBotonera} > 
-
-                      
-                      {
-                
-                ((favoritos?.map(f=> f.id).indexOf(country.id)) === -1)
-                ?
-                <div>
-                    <button className={styles.buttonM} onClick={handleFavorite}>F</button>
-                    <button className={styles.buttonE} onClick={handleDelete} >M</button>
-                    <button className={styles.buttonE} onClick={handleDelete} >X</button>
-                </div>
-              
-                :
-                <div>
-                    <button className={styles.buttonM} onClick={handleFavorite} >X</button>
-                    <button className={styles.buttonE} onClick={handleSave} >U</button>
-                    
-                </div>
-               
-            }
-                     
-                       
-                    </div>
+                  
                  
 
 

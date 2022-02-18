@@ -27,66 +27,25 @@
 .contenerodBotonera{
     display: flex;
     flex-direction: row;
-
-justify-content: space-around;
+    width:100%;
+    justify-content: right;
+    padding: 1rem ;
+    margin-right: 2rem;
 
 }
 
-.buttonM{
+
+
+
+.imagen{
+    display: flex;
+    width:150px;
+    height: 100px;
+  
     
-    background-color:rgb(71, 170, 96);
-    text-decoration: none;
-    margin: 1.5rem ;
-    padding:0.5rem 0.8rem;
-    font-size: 1.1rem;
-    font-weight: bolder;
-    color:white;
-    text-transform: capitalize;
-    border-color: transparent;
-    border-radius: 2rem;
-    transition: all 0.3s ease-in-out;
+    transition: transform .2s;
 }
 
-.buttonM:hover{
-    background-color:green
+.zoom:hover{
+    transform: scale(1.8)
 }
-
-.buttonE{
-    
-    background-color: rgb(252, 140, 140);
-    text-decoration: none;
-    margin: 1.5rem ;
-    padding:0.5rem 0.8rem;
-    font-size: 1.1rem;
-    font-weight: bolder;
-    color:white;
-    text-transform: capitalize;
-    border-color: transparent;
-    border-radius: 2rem;
-    transition: all 0.3s ease-in-out;
-}
-
-.buttonE:hover{
-    background-color:red;
-}
-
-.buttonA{
-    
-    background-color: rgba(255, 255, 0, 0.63);
-    text-decoration: none;
-    margin: 1.5rem ;
-    padding:0.5rem 0.8rem;
-    font-size: 1.1rem;
-    color:white;
-    font-weight: bolder;
-    text-transform: capitalize;
-    border-color: transparent;
-    border-radius: 2rem;
-    transition: all 0.3s ease-in-out;
-}
-
-.buttonA:hover{
-    background-color:yellow;
-}
-
-
