@@ -8,16 +8,16 @@ const {obtenerActivity , crearActivity , buscarActivity, borrarActivity} = requi
 
 
 
-//ruta para traer personajes y uso de las querys
+//ruta para traer paises y uso de las querys
 router.get('/' , obtenerActivity );
 
 //ruta que usamos para params
 router.get('/:id' , buscarActivity);
 
-//ruta para agregar personajes
+//ruta para agregar paises
 router.post('/' , crearActivity);
 
-//ruta para agregar personajes
+//ruta para agregar paises
 router.put('/' , (req,res)=>{
     res.status(200).json({message: "Estoy usando el PUT"})
 });

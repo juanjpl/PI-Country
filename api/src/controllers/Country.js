@@ -98,6 +98,8 @@ const buscarCountry= async (req , res , next)=>{
 
      //traigo el id por params.....
     // const {id} = req.params;
+
+    
     const id = req.params.id;
     const countryTotal = await countriesDB();
 

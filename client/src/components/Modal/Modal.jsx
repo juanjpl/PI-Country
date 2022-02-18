@@ -10,7 +10,7 @@ export default function Modal(){
    const volver = (e)=>{
        e.preventDefault() 
 
-    navigate("/login")
+    navigate("/")
    }
 
 
@@ -27,7 +27,7 @@ export default function Modal(){
                 <div className={styles.modal}>
                 <h1 className={styles.titulo}> Thanks!</h1>
                 <p className={styles.parrafo}>You must be logging for enter the app.</p>
-                <button className={styles.button} onClick={volver} >Login</button>
+                <button className={styles.button} onClick={volver} >Back</button>
                 </div>
 
             </div>

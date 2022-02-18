@@ -21,11 +21,9 @@ module.exports = (sequelize) => {
           unique:true,
           allowNull:false
       },
-      image:{
-        type:DataTypes.STRING,
-       
-        allowNull:false
-    },
+      
+      
+      
       email:{
           type:DataTypes.STRING,
           unique:true,

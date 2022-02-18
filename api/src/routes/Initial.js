@@ -8,7 +8,7 @@ const {obtenerUser , crearUser , buscarUser, borrarUser} = require('../controlle
 
 
 
-//ruta para traer personajes y uso de las querys
+//ruta para traer Usuarios y uso de las querys
 router.get('/' ,obtenerUser);
 
 
@@ -16,10 +16,10 @@ router.get('/' ,obtenerUser);
 //ruta que usamos para params
 router.get('/:id' , buscarUser);
 
-//ruta para agregar personajes
+//ruta para agregar Usuario
 router.post('/' , crearUser);
 
-//ruta para agregar personajes
+//ruta para actualizar Usuario
 router.put('/' , (req,res)=>{
     res.status(200).json({message: "Estoy usando el INITIAL PUT"})
 });

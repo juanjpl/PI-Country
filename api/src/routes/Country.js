@@ -8,16 +8,16 @@ const {obtenerCountry , crearCountry , buscarCountry, borrarCountry} = require('
 
 
 
-//ruta para traer personajes y uso de las querys
+//ruta para traer paises y uso de las querys
 router.get('/' , obtenerCountry );
 
 //ruta que usamos para params
 router.get('/:id' , buscarCountry);
 
-//ruta para agregar personajes
+//ruta para agregar paises
 router.post('/' ,crearCountry);
 
-//ruta para agregar personajes
+//ruta para actualizar paises
 router.put('/' , (req,res)=>{
     res.status(200).json({message: "Estoy usando el PUT"})
 });

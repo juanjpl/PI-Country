@@ -42,7 +42,7 @@ const obtenerUser = async(req , res ,next) =>{
         
         usuarios.length?
         res.status(200).send(usuarios) :
-        res.status(404).send([])
+        res.status(204).send([])
    
  
 }
